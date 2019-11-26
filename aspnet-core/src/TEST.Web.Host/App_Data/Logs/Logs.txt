@@ -1,0 +1,823 @@
+DEBUG 2019-11-26 13:56:27,681 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 13:56:52,743 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 13:56:52,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.Web.Host.Startup.TESTWebHostModule, TEST.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTWebCoreModule, TEST.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTApplicationModule, TEST.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTCoreModule, TEST.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.EntityFrameworkCore.TESTEntityFrameworkModule, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:56:52,767 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 13:56:59,321 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 13:56:59,321 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 13:56:59,321 [1    ] o.Configuration.LanguageManagementConfig - Converted TEST (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 13:56:59,321 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 13:57:22,579 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TEST.EntityFrameworkCore.TESTDbContext, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 13:57:27,707 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 13:57:27,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 13:57:27,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 13:57:27,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TEST
+DEBUG 2019-11-26 13:57:27,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 13:57:27,929 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 13:57:28,036 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 13:57:29,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-26 13:57:29,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 13:57:29,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 13:57:29,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.UserDto
+DEBUG 2019-11-26 13:57:29,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 13:57:29,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 13:57:29,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 13:57:29,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 13:57:29,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 13:57:49,338 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:57:49,552 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:57:49,604 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:57:51,761 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:57:51,793 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:57:54,638 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:58:01,504 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:58:08,886 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:13,005 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ADK\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2019-11-26 13:58:14,720 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:14,737 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+DEBUG 2019-11-26 13:58:20,100 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:58:27,514 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:27,529 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+INFO  2019-11-26 13:58:30,615 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TEST.Web.Host.Controllers.HomeController (TEST.Web.Host).
+INFO  2019-11-26 13:58:31,712 [8    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 13:58:31,721 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host) in 1099.4323ms
+INFO  2019-11-26 13:58:31,723 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+INFO  2019-11-26 13:58:31,741 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17004.5949ms 302 
+INFO  2019-11-26 13:58:31,744 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+DEBUG 2019-11-26 13:58:33,501 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:34,168 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2423.9071ms 200 text/html;charset=utf-8
+INFO  2019-11-26 13:58:34,327 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+DEBUG 2019-11-26 13:58:39,358 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:41,041 [7    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 13:58:41,046 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 13:58:41,202 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6874.7392ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 13:58:44,374 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:58:49,389 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:53,374 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 13:58:53,380 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:58:53,384 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.9726ms 204 
+INFO  2019-11-26 13:58:53,389 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 13:58:53,391 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:58:53,412 [6    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 13:58:53,414 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 13:58:53,417 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:58:53,427 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+DEBUG 2019-11-26 13:58:55,158 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:58:55,306 [8    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:58:55,344 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1914.7936000000002ms
+INFO  2019-11-26 13:58:55,345 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:58:55,347 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1959.1388000000002ms 200 application/json; charset=utf-8
+INFO  2019-11-26 13:58:55,359 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:58:55,361 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:58:55,363 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7816ms 204 
+INFO  2019-11-26 13:58:55,369 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:58:55,372 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:58:55,395 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 13:58:55,397 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 13:58:55,398 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:58:55,406 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+INFO  2019-11-26 13:58:55,890 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:58:55,899 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 490.6562ms
+INFO  2019-11-26 13:58:55,901 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:58:55,903 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 533.8235000000001ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 13:59:00,174 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:05,187 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:10,204 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:15,216 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:20,233 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:59:23,903 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 13:59:23,906 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:23,909 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.102600000000001ms 204 
+INFO  2019-11-26 13:59:23,916 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 13:59:23,919 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:23,922 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:59:23,926 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2019-11-26 13:59:23,944 [5    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:59:23,947 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 19.0023ms
+INFO  2019-11-26 13:59:23,949 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:59:23,951 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.2297ms 200 application/json; charset=utf-8
+INFO  2019-11-26 13:59:23,964 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:59:23,966 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:23,969 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1559ms 204 
+INFO  2019-11-26 13:59:23,973 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:59:23,975 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:23,980 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:59:23,984 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+INFO  2019-11-26 13:59:23,990 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:59:23,993 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 7.0372ms
+INFO  2019-11-26 13:59:23,994 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:59:23,997 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.3804ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 13:59:25,250 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:30,265 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:59:30,276 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-11-26 13:59:30,278 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 13:59:30,280 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 13:59:30,282 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core)'
+INFO  2019-11-26 13:59:30,296 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Models.TokenAuth.AuthenticateResultModel] Authenticate(TEST.Models.TokenAuth.AuthenticateModel) on controller TEST.Controllers.TokenAuthController (TEST.Web.Core).
+INFO  2019-11-26 13:59:32,398 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:59:32,402 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core) in 2103.3434ms
+INFO  2019-11-26 13:59:32,403 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core)'
+INFO  2019-11-26 13:59:32,405 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2130.2036000000003ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 13:59:35,270 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:59:36,428 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 13:59:36,431 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:36,434 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9104ms 204 
+INFO  2019-11-26 13:59:36,438 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 13:59:36,440 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:36,454 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+DEBUG 2019-11-26 13:59:40,965 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 13:59:41,016 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:59:41,020 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Roles.Role, Id:1
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:1
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:2
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:3
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:4
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:5
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:6
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:7
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:8
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:9
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:10
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:11
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:12
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:13
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:14
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:15
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:16
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:17
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:18
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:19
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:20
+DEBUG 2019-11-26 13:59:41,139 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:21
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:22
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:23
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:24
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:25
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:26
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:27
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:28
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:29
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:30
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:31
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:32
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:33
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:34
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:35
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:36
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:37
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:38
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:39
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:40
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:41
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:42
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:43
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:86
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:87
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:88
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:89
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:90
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:91
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:92
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:100
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:101
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:102
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:103
+DEBUG 2019-11-26 13:59:41,140 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:104
+DEBUG 2019-11-26 13:59:41,141 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:157
+DEBUG 2019-11-26 13:59:41,141 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:158
+DEBUG 2019-11-26 13:59:41,141 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:159
+DEBUG 2019-11-26 13:59:41,141 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:160
+INFO  2019-11-26 13:59:41,150 [7    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:59:41,153 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 131.2273ms
+INFO  2019-11-26 13:59:41,155 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 13:59:41,157 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4719.782200000001ms 200 application/json; charset=utf-8
+INFO  2019-11-26 13:59:41,179 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:59:41,181 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:41,183 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.160200000000001ms 204 
+INFO  2019-11-26 13:59:41,191 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 13:59:41,193 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 13:59:41,196 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 13:59:41,202 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:59:41,206 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+DEBUG 2019-11-26 13:59:41,227 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+INFO  2019-11-26 13:59:41,229 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 13:59:41,233 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 24.7678ms
+INFO  2019-11-26 13:59:41,235 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 13:59:41,236 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.8823ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 13:59:45,983 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:50,996 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 13:59:56,012 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:00:01,016 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:00:06,019 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:00:11,030 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:14,610 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 14:01:14,674 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 14:01:14,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.Web.Host.Startup.TESTWebHostModule, TEST.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTWebCoreModule, TEST.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTApplicationModule, TEST.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTCoreModule, TEST.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.EntityFrameworkCore.TESTEntityFrameworkModule, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:14,695 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 14:01:14,754 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:01:14,754 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:01:14,754 [1    ] o.Configuration.LanguageManagementConfig - Converted TEST (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:01:14,754 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:01:15,064 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TEST.EntityFrameworkCore.TESTDbContext, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:01:15,757 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 14:01:15,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 14:01:15,796 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 14:01:15,801 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TEST
+DEBUG 2019-11-26 14:01:15,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 14:01:15,980 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 14:01:16,093 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 14:01:16,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-26 14:01:16,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 14:01:16,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 14:01:16,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.UserDto
+DEBUG 2019-11-26 14:01:16,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 14:01:16,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 14:01:16,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 14:01:16,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 14:01:16,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 14:01:17,938 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:17,996 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:18,097 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:18,157 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:01:18,447 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ADK\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-26 14:01:18,506 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-26 14:01:18,603 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+DEBUG 2019-11-26 14:01:21,277 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:01:21,440 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TEST.Web.Host.Controllers.HomeController (TEST.Web.Host).
+INFO  2019-11-26 14:01:22,489 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 14:01:22,496 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host) in 1051.3569ms
+INFO  2019-11-26 14:01:22,498 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+INFO  2019-11-26 14:01:22,515 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4008.5146ms 302 
+INFO  2019-11-26 14:01:22,517 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-26 14:01:22,676 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 159.0826ms 200 text/html;charset=utf-8
+INFO  2019-11-26 14:01:22,837 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-26 14:01:22,937 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:01:23,194 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 357.3998ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 14:01:26,446 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:31,452 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:36,470 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:01:39,272 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 14:01:39,278 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:01:39,283 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.0306ms 204 
+INFO  2019-11-26 14:01:39,288 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 14:01:39,290 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:01:39,293 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:01:39,307 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:01:39,317 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Roles.Role, Id:1
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:1
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:2
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:3
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:4
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:5
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:6
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:7
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:8
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:9
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:10
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:11
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:12
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:13
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:14
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:15
+DEBUG 2019-11-26 14:01:39,910 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:16
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:17
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:18
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:19
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:20
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:21
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:22
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:23
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:24
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:25
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:26
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:27
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:28
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:29
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:30
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:31
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:32
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:33
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:34
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:35
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:36
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:37
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:38
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:39
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:40
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:41
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:42
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:43
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:86
+DEBUG 2019-11-26 14:01:39,911 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:87
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:88
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:89
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:90
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:91
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:92
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:100
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:101
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:102
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:103
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:104
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:157
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:158
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:159
+DEBUG 2019-11-26 14:01:39,912 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:160
+INFO  2019-11-26 14:01:39,930 [11   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:01:39,971 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 652.6151ms
+INFO  2019-11-26 14:01:39,973 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:01:39,975 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 687.6546000000001ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:01:39,989 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:01:39,991 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:01:39,994 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6082ms 204 
+INFO  2019-11-26 14:01:39,999 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:01:40,000 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:01:40,004 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:01:40,011 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:01:40,020 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+DEBUG 2019-11-26 14:01:40,576 [9    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+INFO  2019-11-26 14:01:40,583 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:01:40,594 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 571.7850000000001ms
+INFO  2019-11-26 14:01:40,619 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:01:40,622 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 622.6686000000001ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 14:01:41,484 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:46,499 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:51,514 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:01:56,518 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:01,544 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:06,560 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:11,576 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:16,580 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:21,592 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:26,609 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:31,612 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:36,626 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:41,637 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:46,654 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:51,668 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:02:56,671 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:01,688 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:06,700 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:11,704 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:16,717 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:21,732 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:26,735 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:31,746 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:36,761 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:41,778 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:46,793 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:03:51,802 [26   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:01,901 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 14:04:01,959 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 14:04:01,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.Web.Host.Startup.TESTWebHostModule, TEST.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTWebCoreModule, TEST.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTApplicationModule, TEST.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.TESTCoreModule, TEST.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TEST.EntityFrameworkCore.TESTEntityFrameworkModule, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:01,981 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 14:04:02,038 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:04:02,038 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:04:02,038 [1    ] o.Configuration.LanguageManagementConfig - Converted TEST (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:04:02,038 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 14:04:02,356 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TEST.EntityFrameworkCore.TESTDbContext, TEST.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 14:04:03,055 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 14:04:03,084 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 14:04:03,093 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 14:04:03,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TEST
+DEBUG 2019-11-26 14:04:03,116 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 14:04:03,288 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 14:04:03,388 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 14:04:03,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-11-26 14:04:03,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 14:04:03,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Users.Dto.UserDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 14:04:03,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TEST.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 14:04:05,297 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:05,354 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:05,462 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:05,524 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:04:05,827 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ADK\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-26 14:04:05,888 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-26 14:04:05,980 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+DEBUG 2019-11-26 14:04:08,782 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:04:08,951 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TEST.Web.Host.Controllers.HomeController (TEST.Web.Host).
+INFO  2019-11-26 14:04:10,015 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 14:04:10,023 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host) in 1065.2682ms
+INFO  2019-11-26 14:04:10,025 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Web.Host.Controllers.HomeController.Index (TEST.Web.Host)'
+INFO  2019-11-26 14:04:10,041 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4154.3118ms 302 
+INFO  2019-11-26 14:04:10,043 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-26 14:04:10,211 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 167.4489ms 200 text/html;charset=utf-8
+INFO  2019-11-26 14:04:10,381 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-26 14:04:10,563 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:04:10,568 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:04:10,715 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 335.8755ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 14:04:13,957 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:18,975 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:23,994 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:29,002 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:04:33,332 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 14:04:33,338 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:04:33,345 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.1655ms 204 
+INFO  2019-11-26 14:04:33,414 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 14:04:33,417 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:04:33,447 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:04:33,449 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:04:33,453 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:04:33,464 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2019-11-26 14:04:33,980 [8    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+DEBUG 2019-11-26 14:04:34,015 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:04:34,124 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 570.7938ms
+INFO  2019-11-26 14:04:34,139 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:04:34,145 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 728.0751ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:04:34,161 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:04:34,162 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:04:34,164 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3802ms 204 
+INFO  2019-11-26 14:04:34,169 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:04:34,170 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:04:34,192 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:04:34,194 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:04:34,196 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:04:34,203 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+INFO  2019-11-26 14:04:34,617 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:04:34,625 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 420.6669ms
+INFO  2019-11-26 14:04:34,627 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:04:34,629 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 460.17670000000004ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 14:04:39,064 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:44,078 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:49,092 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:54,106 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:04:59,112 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:05:04,125 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:05:09,137 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:12,688 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 14:05:12,692 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:12,696 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.4131ms 204 
+INFO  2019-11-26 14:05:12,787 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 14:05:12,797 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:12,841 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:05:12,844 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:05:12,846 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:12,855 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2019-11-26 14:05:12,891 [9    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:12,897 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 37.3889ms
+INFO  2019-11-26 14:05:12,904 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:12,906 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.96050000000001ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:12,950 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:12,953 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:12,956 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5101ms 204 
+INFO  2019-11-26 14:05:12,961 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:12,963 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:13,006 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:05:13,008 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:05:13,011 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:13,025 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+INFO  2019-11-26 14:05:13,038 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:13,041 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 13.2074ms
+INFO  2019-11-26 14:05:13,044 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:13,046 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 85.1134ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:13,487 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 14:05:13,489 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:13,492 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.1108ms 204 
+INFO  2019-11-26 14:05:13,497 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 14:05:13,500 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:13,526 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:05:13,530 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:05:13,533 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:13,541 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2019-11-26 14:05:13,579 [8    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:13,591 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 42.305600000000005ms
+INFO  2019-11-26 14:05:13,593 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:13,596 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 98.04440000000001ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:13,617 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:13,620 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:13,624 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.2058ms 204 
+INFO  2019-11-26 14:05:13,637 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:13,641 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:13,681 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:05:13,688 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:05:13,691 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:13,697 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+INFO  2019-11-26 14:05:13,710 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:13,713 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 14.2963ms
+INFO  2019-11-26 14:05:13,716 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:13,719 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86.81750000000001ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 14:05:14,158 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 14:05:19,171 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:19,960 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-11-26 14:05:19,962 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:19,965 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.524900000000001ms 204 
+INFO  2019-11-26 14:05:19,969 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-11-26 14:05:19,971 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:19,995 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-11-26 14:05:19,997 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2019-11-26 14:05:19,998 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core)'
+INFO  2019-11-26 14:05:20,014 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Models.TokenAuth.AuthenticateResultModel] Authenticate(TEST.Models.TokenAuth.AuthenticateModel) on controller TEST.Controllers.TokenAuthController (TEST.Web.Core).
+INFO  2019-11-26 14:05:20,674 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:20,677 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core) in 661.9686ms
+INFO  2019-11-26 14:05:20,679 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Controllers.TokenAuthController.Authenticate (TEST.Web.Core)'
+INFO  2019-11-26 14:05:20,681 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 711.986ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:22,152 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-11-26 14:05:22,154 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:22,157 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6349ms 204 
+INFO  2019-11-26 14:05:22,251 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-11-26 14:05:22,256 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:22,276 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:22,364 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:22,370 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+DEBUG 2019-11-26 14:05:22,556 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Roles.Role, Id:1
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:1
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:2
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:3
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:4
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:5
+DEBUG 2019-11-26 14:05:22,557 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:6
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:7
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:8
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:9
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:10
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:11
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:12
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:13
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:14
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:15
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:16
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:17
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:18
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:19
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:20
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:21
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:22
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:23
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:24
+DEBUG 2019-11-26 14:05:22,558 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:25
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:26
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:27
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:28
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:29
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:30
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:31
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:32
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:33
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:34
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:35
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:36
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:37
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:38
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:39
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:40
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:41
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:42
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:43
+DEBUG 2019-11-26 14:05:22,559 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:86
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:87
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:88
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:89
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:90
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:91
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:92
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:100
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:101
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:102
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:103
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:104
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:157
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:158
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:159
+DEBUG 2019-11-26 14:05:22,560 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:160
+INFO  2019-11-26 14:05:22,574 [9    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:22,582 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 206.96200000000002ms
+INFO  2019-11-26 14:05:22,584 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2019-11-26 14:05:22,586 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 335.1642ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:22,603 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:22,605 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:22,610 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.345400000000001ms 204 
+INFO  2019-11-26 14:05:22,614 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-11-26 14:05:22,616 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:22,619 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:22,624 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:22,632 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[TEST.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller TEST.Sessions.SessionAppService (TEST.Application).
+DEBUG 2019-11-26 14:05:22,664 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for TEST.Authorization.Users.User, Id:1
+INFO  2019-11-26 14:05:22,667 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 14:05:22,670 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application) in 36.009100000000004ms
+INFO  2019-11-26 14:05:22,672 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'TEST.Sessions.SessionAppService.GetCurrentLoginInformations (TEST.Application)'
+INFO  2019-11-26 14:05:22,673 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.249900000000004ms 200 application/json; charset=utf-8
+INFO  2019-11-26 14:05:23,673 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q  
+INFO  2019-11-26 14:05:23,675 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:23,678 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.6785000000000005ms 204 
+INFO  2019-11-26 14:05:23,731 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q text/plain;charset=UTF-8 0
+INFO  2019-11-26 14:05:23,733 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:23,740 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:23,753 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:23,781 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:23,784 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.3926ms 200 application/json
+INFO  2019-11-26 14:05:23,808 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q&id=9TT5-xK7nMhERIjX737cTw  
+INFO  2019-11-26 14:05:23,817 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:23,822 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:23,831 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+ERROR 2019-11-26 14:05:23,989 [14   ] .AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'TEST.DataServiceApplication.FilterBuilder' while attempting to activate 'TEST.DataServiceApplication.DataServiceProviderAppService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+INFO  2019-11-26 14:05:24,002 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-11-26 14:05:24,004 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 197.59570000000002ms 101 
+DEBUG 2019-11-26 14:05:24,185 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:29,000 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q  
+INFO  2019-11-26 14:05:29,002 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:29,005 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3263ms 204 
+INFO  2019-11-26 14:05:29,009 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q text/plain;charset=UTF-8 0
+INFO  2019-11-26 14:05:29,013 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:29,021 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:29,038 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:29,041 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:29,043 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.9747ms 200 application/json
+INFO  2019-11-26 14:05:29,049 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q&id=GhS5x913VQMfHaEfs8ktSQ  
+INFO  2019-11-26 14:05:29,052 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:29,057 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:29,069 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+ERROR 2019-11-26 14:05:29,132 [9    ] .AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'TEST.DataServiceApplication.FilterBuilder' while attempting to activate 'TEST.DataServiceApplication.DataServiceProviderAppService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+INFO  2019-11-26 14:05:29,138 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-11-26 14:05:29,140 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.59660000000001ms 101 
+DEBUG 2019-11-26 14:05:29,201 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:34,141 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q  
+INFO  2019-11-26 14:05:34,143 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:34,145 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2479000000000005ms 204 
+INFO  2019-11-26 14:05:34,151 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q text/plain;charset=UTF-8 0
+INFO  2019-11-26 14:05:34,154 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:34,159 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:34,170 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:34,173 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:34,175 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.0605ms 200 application/json
+INFO  2019-11-26 14:05:34,180 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q&id=4c2g5-MFxWpwvUA4woEhoQ  
+INFO  2019-11-26 14:05:34,182 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:34,189 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:34,200 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+ERROR 2019-11-26 14:05:34,258 [23   ] .AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'TEST.DataServiceApplication.FilterBuilder' while attempting to activate 'TEST.DataServiceApplication.DataServiceProviderAppService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+DEBUG 2019-11-26 14:05:34,261 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:34,261 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-11-26 14:05:34,263 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 84.02000000000001ms 101 
+INFO  2019-11-26 14:05:39,266 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q  
+INFO  2019-11-26 14:05:39,268 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:39,271 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4316ms 204 
+INFO  2019-11-26 14:05:39,277 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q text/plain;charset=UTF-8 0
+INFO  2019-11-26 14:05:39,281 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+DEBUG 2019-11-26 14:05:39,285 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 14:05:39,286 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:39,297 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:39,300 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-11-26 14:05:39,303 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.2281ms 200 application/json
+INFO  2019-11-26 14:05:39,308 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYtfAnJLFhCZBWnxgeIAoJhIrMI37euELKzVPraSiD%2FXOQkgdboea9fszK2mauHs8snUjrZQGYTrQ0tRQNQ%2FYM178ALeMvJgA3hLEki5fVlTGfQh0hJnLwesWobbLoc0LfpzjRqqKvpD3xCvvyXohX%2FA3oTu12Q8p7U3f97oqgX%2FqJf5rPxAuNYgqOKNTqlVQ8y8tmMfRtNWERCdwhhxyixth9YmxVxl9v3%2FAsoV0TL4nZ%2BMWGauNkGMoTmla1gq6hNYtnRdLn7roVVyNQfGado0DB78w4c%2FFbwcXnj8AecJJfC3wXEqBeIBTu1PSmVbruTJvzKHQoN9fgQvGaKr7%2F2EHL9MEDWSHQvIGNq4xmO7i6kfc8Ik3AHPyCNcNA%2BJeWdRVvL2HtTrEVpHbSJyKVbLba924twPJa9XMfvjhY%2FrINp2ej5k7Upg4Gz9%2F4N5wSp%2FMMCEnWaiPmSasXnEwL%2BZPcZiqojgcbkA7sDNOyQY%2B%2Fu0k3YRKojgxrlvEs16wXaCXggjNqR%2BvWoW7Suti3Q&id=-G9TL7LvrPkN1pOzIbetqg  
+INFO  2019-11-26 14:05:39,311 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-11-26 14:05:39,316 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 14:05:39,324 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+ERROR 2019-11-26 14:05:39,382 [9    ] .AspNetCore.SignalR.HubConnectionHandler - Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'TEST.DataServiceApplication.FilterBuilder' while attempting to activate 'TEST.DataServiceApplication.DataServiceProviderAppService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+INFO  2019-11-26 14:05:39,385 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-11-26 14:05:39,387 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 78.8317ms 101 
